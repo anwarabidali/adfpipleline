@@ -13,9 +13,19 @@
 					"secureInput": false
 				},
 				"typeProperties": {
+					"source": {
+						"type": "FileSystemSource",
+						"recursive": true
+					},
 					"enableStaging": false,
 					"dataIntegrationUnits": 0
-				}
+				},
+				"inputs": [
+					{
+						"referenceName": "datasetS3",
+						"type": "DatasetReference"
+					}
+				]
 			}
 		]
 	}
