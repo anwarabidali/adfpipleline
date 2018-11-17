@@ -7,10 +7,6 @@
 		},
 		"type": "AzureBlob",
 		"typeProperties": {
-			"fileName": {
-				"value": "@dataset().filename",
-				"type": "Expression"
-			},
 			"folderPath": "stgcontainer"
 		}
 	}
