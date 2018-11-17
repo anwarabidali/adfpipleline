@@ -8,7 +8,7 @@
 		"parameters": {
 			"filename": {
 				"type": "String",
-				"defaultValue": "@pipeline().parameters.file1"
+				"defaultValue": "@pipeline().parameters.filename"
 			}
 		},
 		"type": "AzureBlob",
