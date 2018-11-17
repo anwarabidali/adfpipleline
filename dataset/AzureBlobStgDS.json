@@ -5,6 +5,12 @@
 			"referenceName": "AzStorageStaging",
 			"type": "LinkedServiceReference"
 		},
+		"parameters": {
+			"DSparameter": {
+				"type": "String",
+				"defaultValue": "@pipeline().parameters.filenameaali"
+			}
+		},
 		"type": "AzureBlob",
 		"typeProperties": {
 			"folderPath": "stgcontainer"
