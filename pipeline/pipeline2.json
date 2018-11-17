@@ -42,12 +42,6 @@
 					}
 				]
 			}
-		],
-		"parameters": {
-			"file1": {
-				"type": "String",
-				"defaultValue": "@pipeline().parameters.filename"
-			}
-		}
+		]
 	}
 }
