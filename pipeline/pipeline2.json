@@ -42,11 +42,6 @@
 					}
 				]
 			}
-		],
-		"parameters": {
-			"filename": {
-				"type": "String"
-			}
-		}
+		]
 	}
 }
