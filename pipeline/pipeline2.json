@@ -13,9 +13,28 @@
 					"secureInput": false
 				},
 				"typeProperties": {
+					"source": {
+						"type": "BlobSource",
+						"recursive": true
+					},
+					"sink": {
+						"type": "BlobSink"
+					},
 					"enableStaging": false,
 					"dataIntegrationUnits": 0
-				}
+				},
+				"inputs": [
+					{
+						"referenceName": "AzureBlobSrcDS",
+						"type": "DatasetReference"
+					}
+				],
+				"outputs": [
+					{
+						"referenceName": "AzureBlobStgDS",
+						"type": "DatasetReference"
+					}
+				]
 			}
 		]
 	}
