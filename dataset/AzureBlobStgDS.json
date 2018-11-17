@@ -1,0 +1,14 @@
+{
+	"name": "AzureBlobStgDS",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "AzStorageStaging",
+			"type": "LinkedServiceReference"
+		},
+		"type": "AzureBlob",
+		"typeProperties": {
+			"fileName": "",
+			"folderPath": "stgcontainer"
+		}
+	}
+}
