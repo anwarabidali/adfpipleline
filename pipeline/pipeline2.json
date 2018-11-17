@@ -32,7 +32,10 @@
 				"outputs": [
 					{
 						"referenceName": "AzureBlobStgDS",
-						"type": "DatasetReference"
+						"type": "DatasetReference",
+						"parameters": {
+							"filename": "@pipeline().parameters.file1"
+						}
 					}
 				]
 			}
