@@ -6,6 +6,9 @@
 			"pipelineReference": {
 				"referenceName": "pipeline2",
 				"type": "PipelineReference"
+			},
+			"parameters": {
+				"file1": "copyfromadf_@{formatDateTime(trigger().outputs.windowStartTime, 'yyyy-MM-dd')}"
 			}
 		},
 		"type": "TumblingWindowTrigger",
