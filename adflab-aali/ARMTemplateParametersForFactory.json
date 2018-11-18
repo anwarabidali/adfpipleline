@@ -28,9 +28,6 @@
 		},
 		"AmazonS3Source_properties_typeProperties_accessKeyId": {
 			"value": "AKIAJJTURXRSM3RBY2OA"
-		},
-		"trigger2_properties_pipeline_parameters_filenameaali": {
-			"value": "copyfromadf_@{formatDateTime(trigger().outputs.windowStartTime, 'yyyy-MM-dd')}"
 		}
 	}
 }
