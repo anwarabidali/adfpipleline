@@ -1,0 +1,28 @@
+{
+	"name": "ADFLab-SSIS",
+	"properties": {
+		"type": "Managed",
+		"description": "ADFLab-SSIS create by anwar ali",
+		"typeProperties": {
+			"computeProperties": {
+				"location": "Southeast Asia",
+				"nodeSize": "Standard_D1_v2",
+				"numberOfNodes": 1,
+				"maxParallelExecutionsPerNode": 1
+			},
+			"ssisProperties": {
+				"catalogInfo": {
+					"catalogServerEndpoint": "adflabsqlpjxmn.database.windows.net",
+					"catalogAdminUserName": "sqladmin",
+					"catalogAdminPassword": {
+						"type": "SecureString",
+						"value": "**********"
+					},
+					"catalogPricingTier": "Basic"
+				},
+				"edition": "Enterprise",
+				"licenseType": "BasePrice"
+			}
+		}
+	}
+}
